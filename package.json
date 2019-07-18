@@ -1,0 +1,41 @@
+{
+  "_from": "git+https://github.com/gitstc/CheckGeofence.git",
+  "_id": "com-stc-geofence-plugin@0.0.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/com-stc-geofence-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/gitstc/CheckGeofence.git",
+    "rawSpec": "https://github.com/gitstc/CheckGeofence.git",
+    "saveSpec": "git+https://github.com/gitstc/CheckGeofence.git",
+    "fetchSpec": "https://github.com/gitstc/CheckGeofence.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/gitstc/CheckGeofence.git#5958caa1c7f77feb5a1677d8037ff8e591efaeb9",
+  "_spec": "https://github.com/gitstc/CheckGeofence.git",
+  "_where": "D:\\MobileApps\\Where2Go\\ePoints Template",
+  "author": {
+    "name": "TSU"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Geofence Plugin",
+  "keywords": [
+    "printer",
+    "cordova",
+    "ecosystem:cordova"
+  ],
+  "name": "com-stc-geofence-plugin",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "repository": {},
+  "version": "0.0.1"
+}

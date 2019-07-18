@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	id="com.stc.GeofencePlugin"
+	version="1.0.0">
+
+	<engines>
+		<engine name="cordova" version=">=3.0.0" />
+	</engines>
+
+	<name>Geofence Plugin</name>
+
+	<js-module src="www/GeofencePlugin.js" name="GeofencePlugin">
+		<clobbers target="GeofencePlugin" />
+	</js-module>
+
+	<!-- iOS -->
+	<platform name="ios">
+		<config-file target="config.xml" parent="/*">
+			<feature name="GeofencePlugin">
+				<param name="ios-package" value="GeofencePlugin"/>
+			</feature>
+		</config-file>
+		<header-file src="src/ios/GeofencePlugin.h" />
+		<source-file src="src/ios/GeofencePlugin.m" />
+	</platform>
+
+	<!-- Android -->
+	<platform name="android">
+		<config-file target="res/xml/config.xml" parent="/*">
+			<feature name="GeofencePlugin" >
+				<param name="android-package" value="com.stc.GeofencePlugin.GeofencePlugin"/>
+			</feature>
+		</config-file>
+		<source-file src="src/android/GeofencePlugin.java" target-dir="src/com/stc/GeofencePlugin" />
+	</platform>
+</plugin>
